@@ -80,6 +80,9 @@ header::after {
   padding: 2em 4em 2em 1.5em;
   text-transform: uppercase;
   text-decoration: none;
+  img {
+    display: none;
+  }
 }
 .site-nav a:hover, .site-nav a:focus {
   background: #E4B363;
@@ -768,6 +771,9 @@ button.modal_close span:after {
     margin-right: 1em;
     color: #000;
     font-size: 1.2em;
+    img {
+      display: block;
+    }
   }
 
   .site-nav a:hover,

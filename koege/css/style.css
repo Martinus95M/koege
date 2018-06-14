@@ -90,6 +90,9 @@ header::after {
   text-transform: uppercase;
   text-decoration: none;
 }
+.site-nav a img {
+  display: none;
+}
 
 .site-nav a:hover, .site-nav a:focus {
   background: #E4B363;
@@ -764,6 +767,9 @@ footer .social div i {
     margin-right: 1em;
     color: #000;
     font-size: 1.2em;
+  }
+  .site-nav a img {
+    display: block;
   }
 
   .site-nav a:hover,
